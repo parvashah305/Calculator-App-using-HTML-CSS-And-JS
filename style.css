@@ -1,0 +1,43 @@
+.btn{
+    border-radius: 50px;
+    padding: 10px 10px;
+    background-color: rgb(237, 234, 234);
+    border-style: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 5px;
+}
+.btn:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.container{
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  
+}
+
+.container h3{
+    font-size: 30px;
+}
+
+.calculator{
+    margin: auto;
+    background-color: blueviolet;
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+
+.input-1 input{
+    border-radius: 5px;
+}
+
+.content{
+    margin: auto;
+    
+}

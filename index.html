@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <h3><strong>Calculator App</strong></h3>
+        <div class="content">
+            <input type="text"  id="result" style="border-radius: 10px;"  >
+            <table class="calculator">
+        
+                <tr>
+                    <td><input type="button" value="C" class="btn" onclick="delete1()"></td>
+                    <td><input type="button" value="(" class="btn" onclick="display('(')"></td>
+                    <td><input type="button" value=")" class="btn" onclick="display(')')"></td>
+                    <td><input type="button" value="%" class="btn" onclick="display('%')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" class="btn" onclick="display('7')"></td>
+                    <td><input type="button" value="8" class="btn" onclick="display('8')"></td>
+                    <td><input type="button" value="9" class="btn" onclick="display('9')"></td>
+                    <td><input type="button" value="/" class="btn" onclick="display('/')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" class="btn" onclick="display('4')"></td>
+                    <td><input type="button" value="5" class="btn" onclick="display('5')"></td>
+                    <td><input type="button" value="6" class="btn" onclick="display('6')"></td>
+                    <td><input type="button" value="*" class="btn" onclick="display('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" class="btn" onclick="display('1')"></td>
+                    <td><input type="button" value="2" class="btn" onclick="display('2')"></td>
+                    <td><input type="button" value="3" class="btn" onclick="display('3')"></td>
+                    <td><input type="button" value="-" class="btn" onclick="display('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" class="btn" onclick="display('0')"></td>
+                    <td><input type="button" value="." class="btn" onclick="display('.')"></td>
+                    <td><input type="button" value="+" class="btn" onclick="display('+')"></td>
+                    <td><input type="button" value="=" class="btn" onclick="solve()"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<script src="script.js"></script>
+
+    </script>
+</body>
+</html>
